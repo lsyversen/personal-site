@@ -3,6 +3,7 @@ import siteMetadata from '@/data/siteMetadata'
 import Image from 'next/image'
 import { TypedHeading } from '@/components/TypedHeading'
 import Pengu from 'public/static/images/pengu_island.png'
+import Snowboard from 'public/static/gifs/snowboard2.gif' 
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
           </div>
           <div className="pb-10 xl:w-1/2">
             <div className="flex justify-center ">
-              <Image className="rounded-lg" src={Pengu} width={400} height={600} alt="pengu" />
+              <Image className="rounded-lg" src={Snowboard} width={400} height={600} alt="Snowboarder" />
             </div>
           </div>
         </div>

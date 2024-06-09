@@ -26,9 +26,9 @@ export default function About() {
         {/* Sticky Sidebar */}
         <div className="flex flex-col items-center pb-12 pt-2 xl:sticky xl:top-4 xl:items-start">
           <div>
-            <Image src={Liam} width={200} height={250} alt="pinkie" className="rounded-lg" />
+            <Image src={Liam} width={200} height={250} alt="Liam" className="rounded-lg" />
           </div>
-          <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">Liam Ali</h3>
+          <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">Liam Ali Syversen</h3>
           <div className="text-gray-500 dark:text-gray-400">Eastern Michigan University</div>
           <div className="flex space-x-3 pt-6">
             <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
@@ -40,7 +40,7 @@ export default function About() {
 
         {/* About Me Text */}
         <div className="pb-8 pt-2 text-lg leading-relaxed text-gray-900 dark:text-gray-300 xl:col-span-2">
-          Hey, I'm Liam! I grew up in Southeast Michigan and I'm currently in my second year as a
+          Hey, I'm Liam! I grew up in Brighton, Michigan and I'm currently in my second year as a
           computer science student at the Eastern Michigan University.
           <br />
           <br />
@@ -60,7 +60,7 @@ export default function About() {
                 Planning my next snowboarding trip
                 <Image
                   src={Snowboard}
-                  alt="loading..."
+                  alt="Snowboard GIF"
                   width="60"
                   className="my-0 inline-flex items-center pl-3"
                 />
@@ -69,7 +69,7 @@ export default function About() {
                 Catching up on anime/manga
                 <Image
                   src={Anime}
-                  alt="loading..."
+                  alt="Anime GIF"
                   width="50"
                   className="my-0 inline-flex items-center pl-3"
                 />
@@ -111,37 +111,7 @@ export default function About() {
               </div>
             ))}
           </div>
-          <a
-            className="no-underline"
-            href="https://open.spotify.com/user/ke17fmzadn03r8cr328qxoguo"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="mb-2 mt-10 text-xl font-normal text-gray-900 hover:font-bold hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-500">
-              Top Songs (of the Month)
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                className="ml-1 inline-block h-4 w-4 fill-current"
-              >
-                <g data-name="Layer 2">
-                  <g data-name="external-link">
-                    <rect width="24" height="24" opacity="0" />
-                    <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z" />
-                    <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
-                  </g>
-                </g>
-              </svg>
-            </div>
-          </a>
-          <div className="mb-6 ">
-            <p className="my-0">Click below for a preview 🎧</p>
-          </div>
-          <TopTrackSpotify />
-          {/* Hershey (pet me)
-          <br />
-          <br />
-          Krool Gifs */}
+          
         </div>
       </div>
     </>

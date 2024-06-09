@@ -8,7 +8,7 @@ export function TypedHeading() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Meet Liam Ali!"],
+      strings: ["Meet Liam!"],
       startDelay: 10,
       typeSpeed: 50,
       // backSpeed: 10,

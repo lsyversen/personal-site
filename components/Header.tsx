@@ -5,6 +5,7 @@ import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import Krool from 'public/static/images/krool-logo.png'
+import Snowboarder from 'public/static/gifs/snowboard3.gif'
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
             <div className="mr-3">
-              <Image src={Krool} width={27} height={25} alt="KROOLLL" />
+              <Image src={Snowboarder} width={27} height={25} alt="Snowboarder3" />
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
               <div className="hidden h-6 text-2xl font-medium hover:font-bold sm:block">

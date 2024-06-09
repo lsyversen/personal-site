@@ -2,9 +2,9 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Liam Ali',
-  author: 'Liam Ali',
-  headerTitle: 'Liam Ali',
+  title: 'Liam Syversen',
+  author: 'Liam Ali Syversen',
+  headerTitle: 'Liam',
   description: 'A personal website created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
