@@ -111,7 +111,7 @@ const About: React.FC = () => {
               </div>
             ))}
           </div>
-          <GitHubContributions username="lsyversen" />
+    
         </div>
       </div>
     </>
