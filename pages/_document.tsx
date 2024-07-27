@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang={siteMetadata.language} className="scroll-smooth">
         <Head>
-          <link rel="icon" type="image/png" sizes="16x16" href="/static/images/krool-logo.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/static/gifs/snowboard3.gif" />
           <link rel="manifest" href="/static/favicons/site.webmanifest" />
           <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
           <meta name="msapplication-TileColor" content="#000000" />

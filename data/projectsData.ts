@@ -1,9 +1,9 @@
 const projectsData = [
   {
-    title: 'jasminehou.dev',
+    title: 'liam-syversen.dev',
     description: `My personal website created with Next.js and Tailwind.css.`,
-    imgSrc: '/static/images/website-cover.png',
-    href: 'https://github.com/jsmnhou/jasmine-website-v2',
+    imgSrc: '/static/gifs/snowboard.gif',
+    href: 'https://github.com/lsyversen/simple-icons',
     projectType: 'personal',
   },
   {
@@ -14,10 +14,10 @@ const projectsData = [
     projectType: 'personal',
   },
   {
-    title: 'youtube-dl',
-    description: `Open source contributions to the popular command-line program for downloading videos.`,
-    imgSrc: '/static/images/youtube-dl-cover.jpeg',
-    href: 'https://github.com/ytdl-org/youtube-dl',
+    title: 'simple-icon',
+    description: `Open source contributions to the popular website for downloading icons.`,
+    imgSrc: '/static/images/simple-icon.png',
+    href: 'https://github.com/simple-icons/simple-icons',
     projectType: 'oss',
   },
 ]

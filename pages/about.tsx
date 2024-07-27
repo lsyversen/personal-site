@@ -4,15 +4,15 @@ import { PageSEO } from '@/components/SEO'
 import Image from 'next/image'
 import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
-import TopTrackSpotify from 'components/TopTrackSpotify'
 import animeTop from '@/data/animeTop'
 import Jasmine from 'public/static/images/akira.jpg'
 import Liam from 'public/static/images/Liam.jpeg'
 import KRool from 'public/static/gifs/krool2.gif'
 import Snowboard from 'public/static/gifs/snowboard.gif'
 import Anime from 'public/static/gifs/gojo.gif'
+import GitHubContributions from '@/components/github/github-activity'
 
-export default function About() {
+const About: React.FC = () => {
   return (
     <>
       <PageSEO
@@ -111,9 +111,14 @@ export default function About() {
               </div>
             ))}
           </div>
-          
+          <GitHubContributions username="lsyversen" />
         </div>
       </div>
     </>
   )
 }
+
+export default About
+
+
+

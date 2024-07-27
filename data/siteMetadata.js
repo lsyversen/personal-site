@@ -9,9 +9,9 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'liamali.dev',
-  siteRepo: 'https://github.com/jsmnhou/jasmine-website-v2',
-  siteLogo: '/static/images/krool-logo.png',
-  image: '/static/images/avatar.png',
+  siteRepo: 'https://github.com/lsyversen/personal-site',
+  siteLogo: '/static/images/faputa.png',
+  image: '/static/images/Liam.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'syversenliam@gmail.com',
   github: 'https://github.com/lsyversen',
@@ -53,7 +53,7 @@ const siteMetadata = {
       // transparent_dark, preferred_color_scheme, custom
       theme: 'light',
       // theme when dark mode
-      darkTheme: 'transparent_dark',
+      darkTheme: 'dark_high_contrast',
       // If the theme option above is set to 'custom`
       // please provide a link below to your custom theme css file.
       // example: https://giscus.app/themes/custom_example.css
