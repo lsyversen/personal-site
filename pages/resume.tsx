@@ -21,7 +21,7 @@ export default function Resume() {
       <div className="prose pb-20 pt-2 text-lg leading-relaxed dark:prose-dark">
         For more information, please reference my{' '}
         <a
-          href="https://docs.google.com/gview?url=https://github.com/jsmnhou/jsmnhou/raw/main/Jasmine_Hou_Resume.pdf&embedded=true"
+          href=" "
           className="inline-flex items-center font-medium text-blue-500 hover:font-semibold dark:text-blue-500"
           target="_blank"
           rel="noreferrer"
@@ -59,7 +59,7 @@ export default function Resume() {
         <h2>Skills</h2>
         <ul className="list-disc space-y-1">
           <li>
-            <span className="font-bold">Languages: </span>C++, Python, Java, Javascript, TypeScript, PHP
+            <span className="font-bold">Languages: </span>Python, Java, Javascript, TypeScript, PHP
             HTML, CSS
           </li>
           <li>

@@ -5,12 +5,10 @@ import Image from 'next/image'
 import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
 import animeTop from '@/data/animeTop'
-import Jasmine from 'public/static/images/akira.jpg'
 import Liam from 'public/static/images/Liam.jpeg'
 import KRool from 'public/static/gifs/krool2.gif'
 import Snowboard from 'public/static/gifs/snowboard.gif'
 import Anime from 'public/static/gifs/gojo.gif'
-import GitHubContributions from '@/components/github/github-activity'
 
 const About: React.FC = () => {
   return (
@@ -48,7 +46,7 @@ const About: React.FC = () => {
           <div className="prose text-gray-900 dark:text-gray-300">
             <ul className="list-disc text-lg">
               <li className="my-0">
-                Tilting from League or Smash
+                Playing video games 
                 <Image
                   src={KRool}
                   alt="loading..."

@@ -10,7 +10,7 @@ const projectsData = [
     title: 'Sova Sleep Tracker',
     description: `Mobile app designed to assist users with tracking and analyzing there sleep.`,
     imgSrc: '/static/images/app-logo.png',
-    href: 'https://github.com/jsmnhou/mental-health/blob/main/final_mental_health_during_COVID19.ipynb',
+    href: 'https://github.com/lsyversen/Sova-App',
     projectType: 'personal',
   },
   {
