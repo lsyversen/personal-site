@@ -50,7 +50,7 @@ const GitHubContributions: React.FC<GitHubContributionsProps> = ({ username }) =
 
         const formattedData = Object.keys(contributionsData).map(date => ({
           date,
-          count: contributionsData[date],
+          count: contributionsData[(date)],
         }))
 
         setContributions(formattedData)
@@ -139,5 +139,3 @@ const GitHubContributions: React.FC<GitHubContributionsProps> = ({ username }) =
 }
 
 export default GitHubContributions
-
-

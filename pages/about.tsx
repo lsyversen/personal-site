@@ -26,7 +26,9 @@ const About: React.FC = () => {
           <div>
             <Image src={Liam} width={200} height={250} alt="Liam" className="rounded-lg" />
           </div>
-          <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">Liam Ali Syversen</h3>
+          <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">
+            Liam Ali Syversen
+            </h3>
           <div className="text-gray-500 dark:text-gray-400">Eastern Michigan University</div>
           <div className="flex space-x-3 pt-6">
             <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
@@ -109,7 +111,6 @@ const About: React.FC = () => {
               </div>
             ))}
           </div>
-    
         </div>
       </div>
     </>
@@ -117,6 +118,3 @@ const About: React.FC = () => {
 }
 
 export default About
-
-
-

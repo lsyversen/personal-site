@@ -45,15 +45,14 @@ export default function Resume() {
         Evenica Corp, Junior Application Developer, Jan 2024 - Present
         <ul className="list-disc space-y-1">
           <li>
-            Junior Application Developer
+          Junior Application Developer
           </li>
         </ul>
         <h2>Education</h2>
         Eastern Michigan University, B.A. Computer Science, expected May 2026
         <ul className="list-disc space-y-1">
           <li>
-            <span className="font-bold">Coursework: </span> Linux/UNIX I: Fundamentals, 
-            Advanced Java Concepts, Java Spring Framework, Web Programming Using PHP and MySQL
+            <span className="font-bold">Coursework: </span> Linux/UNIX I: Fundamentals, Advanced Java Concepts, Java Spring Framework, Web Programming Using PHP and MySQL
           </li>
         </ul>
         <h2>Skills</h2>

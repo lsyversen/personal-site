@@ -2,9 +2,7 @@ import { PageSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import Image from 'next/image'
 import { TypedHeading } from '@/components/TypedHeading'
-import Pengu from 'public/static/images/pengu_island.png'
 import Snowboard from 'public/static/gifs/snowboard2.gif' 
-import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -18,7 +16,8 @@ export default function Home() {
             <p className="prose pb-8 pt-4 text-lg leading-relaxed dark:prose-dark">
               I'm currently a second-year computer science student at the Eastern Michigan University.
               <br />
-              <br />I appreciate you dropping by!
+              <br />
+              I appreciate you dropping by!
             </p>
           </div>
           <div className="pb-10 xl:w-1/2">

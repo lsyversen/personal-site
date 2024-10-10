@@ -4,7 +4,6 @@ import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 import PageTitle from '@/components/PageTitle'
 import GitHubContributions from '@/components/github/github-activity'
-import Footer from '@/components/Footer'
 
 export default function Projects() {
   return (
@@ -53,8 +52,7 @@ export default function Projects() {
               ))}
           </div>
           <GitHubContributions username="lsyversen" />
-        </div>
-        
+        </div>  
       </div>
     </>
   )

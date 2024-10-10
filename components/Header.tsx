@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
-import Krool from 'public/static/images/krool-logo.png'
 import Snowboarder from 'public/static/gifs/snowboard3.gif'
 
 const Header = () => {
